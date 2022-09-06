@@ -2,6 +2,7 @@
 
 import 'package:blockchain_world/buyer/productlist/ProdcutDetailsScreen.dart';
 import 'package:blockchain_world/buyer/productlist/model/ProductDetailPOJO.dart';
+import 'package:blockchain_world/seller/productlist/model/SellerProductArguments.dart';
 import 'package:blockchain_world/transactions/bloc/transaction_repository/TransactionRepository.dart';
 import 'package:blockchain_world/transactions/model/AddTransactionPOJO.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -10,9 +11,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:transparent_image/transparent_image.dart';
 
-import '../../UploadProduct/Model/SellerProductArguments.dart';
-import '../../UploadProduct/screens/SellerProductDetails.dart';
-import '../../UploadProduct/screens/UploadProduct.dart';
+
 import '../../accounts/controller/bloc/repository/AccountRepository.dart';
 import '../../network/Node1.dart';
 import '../../network/Node2.dart';

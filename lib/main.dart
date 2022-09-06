@@ -1,10 +1,10 @@
 
-import 'dart:io';
-
 
 import 'package:blockchain_world/buyer/productlist/BuyerProductList.dart';
 import 'package:blockchain_world/seller/home/SellerHomeScreen.dart';
 import 'package:blockchain_world/seller/orders/screen/OrderList.dart';
+import 'package:blockchain_world/seller/productlist/model/SellerProductArguments.dart';
+import 'package:blockchain_world/seller/productlist/upload_products/SellerProductDetails.dart';
 import 'package:blockchain_world/seller/transactions/view/SellerTransactionList.dart';
 import 'package:blockchain_world/seller/wallet/SellerWalletDetails.dart';
 import 'package:blockchain_world/util/AppBlocObserver.dart';
@@ -20,9 +20,7 @@ import 'package:responsive_framework/responsive_wrapper.dart';
 
 import 'package:page_transition/page_transition.dart';
 
-import 'UploadProduct/Model/SellerProductArguments.dart';
 import 'seller/productlist/ProductList.dart';
-import 'UploadProduct/screens/SellerProductDetails.dart';
 import 'buyer/home/BuyreHomeScreen.dart';
 import 'buyer/orders/screen/CustomerOrderList.dart';
 import 'buyer/productlist/ProdcutDetailsScreen.dart';

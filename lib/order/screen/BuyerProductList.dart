@@ -8,13 +8,13 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:transparent_image/transparent_image.dart';
 
-import '../../UploadProduct/Model/SellerProductArguments.dart';
-import '../../UploadProduct/screens/SellerProductDetails.dart';
-import '../../UploadProduct/screens/UploadProduct.dart';
+
 import '../../accounts/controller/bloc/repository/AccountRepository.dart';
 import '../../network/Node1.dart';
 import '../../network/Node2.dart';
 import '../../network/RestClient.dart';
+import '../../seller/productlist/model/SellerProductArguments.dart';
+import '../../seller/productlist/upload_products/SellerProductDetails.dart';
 import '../../ui/sizeConfig.dart';
 import '../../util/appconstants/AppConstants.dart';
 

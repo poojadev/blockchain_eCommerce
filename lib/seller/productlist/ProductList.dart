@@ -1,5 +1,7 @@
 
 
+import 'package:blockchain_world/seller/productlist/upload_products/SellerProductDetails.dart';
+import 'package:blockchain_world/seller/productlist/upload_products/UploadProduct.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 import 'package:flutter/material.dart';
@@ -8,9 +10,7 @@ import 'package:transparent_image/transparent_image.dart';
 import '../../accounts/controller/bloc/repository/AccountRepository.dart';
 import '../../ui/sizeConfig.dart';
 import '../../util/appconstants/AppConstants.dart';
-import '../../UploadProduct/screens/SellerProductDetails.dart';
-import '../../UploadProduct/screens/UploadProduct.dart';
-import '../../UploadProduct/Model/SellerProductArguments.dart';
+import 'model/SellerProductArguments.dart';
 
 
 

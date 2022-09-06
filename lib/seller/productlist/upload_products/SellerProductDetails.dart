@@ -12,11 +12,11 @@ import 'package:image_picker/image_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart' as firebase_storage;
 import 'package:path/path.dart' as Path;
 
-import '../../../UploadProduct/Model/SellerProductArguments.dart';
 import '../../../ui/ALertDialog.dart';
 import '../../../ui/sizeConfig.dart';
 import '../../../util/appconstants/AppConstants.dart';
 import '../../../util/localstorage/UserAuthSharedPreferences.dart';
+import '../model/SellerProductArguments.dart';
 
 
 
